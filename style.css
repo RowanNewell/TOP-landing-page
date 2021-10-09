@@ -14,6 +14,10 @@ section, header{
     width:100%;
 }
 
+#section1, #section2, footer{
+    padding:70px 0;
+}
+
 header{
     background-color:#1F2937;
     height:60px;
@@ -71,4 +75,78 @@ header#nav .menu{
 button, .cta{
     background-color:#3882F6;
     color:white;
+}
+
+
+/*---SECTION 1---*/
+
+#section1 .wrapper,#section2 .wrapper{
+    flex-direction:column;
+}
+
+.quarter-container{
+    display:flex;
+    flex-direction:row;
+}
+
+.quarter-info {
+    padding: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.icon-box{
+    height:130px;
+    width:130px;
+    border:3px solid #3882F6;
+    border-radius:10px;
+    margin: 0 auto;
+}
+
+.quarter-info p {
+    padding: 0 15px;
+}
+
+/*---SECTION 2---*/
+
+#section2{
+    background-color:#E5E7EB;
+}
+
+blockquote{
+    font-size:36px;
+    font-weight:200;
+    font-style: italic;
+    color:#1F2937;
+}
+
+.author {
+    align-self: end;
+    padding-right: 50px;
+    font-weight: 600;
+}
+
+
+/*---CTA---*/
+
+footer .wrapper{
+    padding:40px 100px;
+    border-radius:10px;
+    background-color:#3882F6;
+}
+.cta{
+    display: flex;
+    margin: 0 auto;
+}
+
+button {
+    padding: 5px 30px;
+    align-self: center;
+    border-radius: 10px;
+    border:none;
+}
+
+.cta button{
+    border: 2px solid white;
+    margin-left: 50px;
 }
